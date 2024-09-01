@@ -1,0 +1,15 @@
+/* 페이드인 아웃 */
+.fade-in-element {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.wrap_controllers {
+    visibility: hidden;
+}
