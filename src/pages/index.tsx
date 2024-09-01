@@ -2,7 +2,6 @@ import Head from 'next/head';
 import Image from 'next/image';
 import FadeInComponent from '@/components/FadeInComponent';
 import Calendar from '@/components/Calendar';
-import { useEffect } from 'react';
 import Contact from '@/components/Contact';
 import image2 from '../../public/image2.jpeg'
 import image3 from '../../public/image3.jpeg'
