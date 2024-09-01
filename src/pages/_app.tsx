@@ -6,6 +6,7 @@ import { Gowun_Batang } from 'next/font/google';
 import Script from 'next/script';
 
 const globalFont = Gowun_Batang({ weight: '400', subsets: ['latin'] });
+declare var naver: any;
 
 export default function App({ Component, pageProps }: AppProps) {
     return (
