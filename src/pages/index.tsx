@@ -10,6 +10,7 @@ import image4 from '../../public/image4.jpeg';
 import naverMap from '../../public/naver_map.webp';
 import kakaoMap from '../../public/kakao_map.webp';
 import Accounts from '@/components/Accounts';
+import link from '../../public/link.svg';
 
 export default function Home() {
     return (
@@ -253,7 +254,7 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div style={{ paddingLeft: '1.5rem', paddingRight: '1.5rem', paddingBottom:'1.5rem' }}>
+                    <div style={{ paddingLeft: '1.5rem', paddingRight: '1.5rem', paddingBottom: '1.5rem' }}>
                         <h2>
                             버스
                         </h2>
@@ -283,7 +284,7 @@ export default function Home() {
 
                     <Spacer size={0.5}/>
 
-                    <div  style={{ paddingLeft: '1.5rem', paddingRight: '1.5rem' }}>
+                    <div style={{ paddingLeft: '1.5rem', paddingRight: '1.5rem' }}>
                         <h2>
                             주차 안내
                         </h2>
@@ -307,7 +308,7 @@ export default function Home() {
                         <h2> 마음을 전하실 곳</h2>
 
 
-                        <h4 style={{ textAlign: 'center', padding:'2rem'}}>
+                        <h4 style={{ textAlign: 'center', padding: '2rem' }}>
                             참석이 어려우신 분들을 위해<br/>
                             계좌번호를 기재하였습니다. <br/>
                             너그러운 마음으로 양해 부탁드립니다.<br/>
@@ -319,9 +320,30 @@ export default function Home() {
                     </div>
                 </FadeInComponent>
 
-                <footer>
-                    카카오톡 공유하기 버튼
-                    링크 복사하기 버튼
+                <footer style={{
+                    width: '100%',
+                    height: '10rem',
+                    display: 'flex',
+                    justifyContent: 'center',
+                    backgroundColor: '#f6f6f6',
+                    alignItems: 'center',
+                    flexDirection: 'column',
+                }}>
+                    <div style={{ display: 'flex', flexDirection: 'row', alignItems:'center' }}>
+                        <Image
+                            src={link}
+                            alt="test image"
+                            width={24}
+                            height={24}
+                            sizes="100vw"
+                        />
+
+                        <Spacer size={0.5}/>
+
+                        <h3>링크 복사하기</h3>
+
+
+                    </div>
                 </footer>
             </main>
         </>
