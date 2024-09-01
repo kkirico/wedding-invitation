@@ -10,17 +10,9 @@ export default function Document() {
             <body>
                 <Main/>
                 <NextScript />
-                <Script
+                <script
                     className="daum_roughmap_loader_script"
                     src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"
-                    onLoad={() => {
-                        new daum.roughmap.Lander({
-                            'timestamp': '1725183515192',
-                            'key': '2kibg',
-                            'mapWidth': '375',
-                            'mapHeight': '360',
-                        }).render();
-                    }}
                 />
             </body>
         </Html>

@@ -11,8 +11,17 @@ import naverMap from '../../public/naver_map.webp';
 import kakaoMap from '../../public/kakao_map.webp';
 import Accounts from '@/components/Accounts';
 import link from '../../public/link.svg';
+import { useEffect } from 'react';
 
 export default function Home() {
+    useEffect(() => {
+        new daum.roughmap.Lander({
+            'timestamp': '1725183515192',
+            'key': '2kibg',
+            'mapWidth': '375',
+            'mapHeight': '360',
+        }).render();
+    }, []);
     return (
         <>
             <Head>
@@ -132,7 +141,9 @@ export default function Home() {
 
                             <div style={{ display: 'flex', flexDirection: 'row' }}>
                                 <h3>이윤식 · 홍수연</h3>
+
                                 <h5 style={{ color: 'grey', alignSelf: 'flex-end' }}>&nbsp;의 아들</h5>
+
                                 <h3>&nbsp;헌준</h3>
                             </div>
 
@@ -149,22 +160,26 @@ export default function Home() {
 
                 <FadeInComponent>
                     <Spacer size={2}/>
+
                     <Contact/>
+
                     <Spacer size={2}/>
                 </FadeInComponent>
 
                 <FadeInComponent>
                     <Spacer size={2}/>
+
                     <Calendar/>
+
                     <Spacer size={2}/>
                 </FadeInComponent>
 
                 <FadeInComponent>
-
                     <Spacer size={2}/>
-                    <h1 style={{ display: 'flex', justifyContent: 'center' }}> 갤러리 </h1>
-                    <Spacer size={1.5}/>
 
+                    <h1 style={{ display: 'flex', justifyContent: 'center' }}> 갤러리 </h1>
+
+                    <Spacer size={1.5}/>
                 </FadeInComponent>
 
                 <FadeInComponent>
@@ -176,6 +191,7 @@ export default function Home() {
                         sizes="100vw"
                         style={{ width: '100%', height: 'auto' }} // optional
                     />
+
                     <Spacer size={1.5}/>
                 </FadeInComponent>
 
@@ -188,8 +204,10 @@ export default function Home() {
                         sizes="100vw"
                         style={{ width: '100%', height: 'auto' }} // optional
                     />
+
                     <Spacer size={1.5}/>
                 </FadeInComponent>
+
                 <FadeInComponent>
                     <Image
                         src={image4}
@@ -210,14 +228,14 @@ export default function Home() {
                         alignItems: 'center',
                         padding: '1rem',
                     }}>
-                        <h2> 오시는 길</h2>
+                        <h2>오시는 길</h2>
 
                         <Spacer size={2.0}/>
 
-                        <h3>
-                            보테가 마지오
-                        </h3>
+                        <h3>보테가 마지오</h3>
+
                         <Spacer size={1.0}/>
+
                         <h4 style={{ lineHeight: '1.5rem', textAlign: 'center' }}>
                             서울 성동구 서울숲2길 32-14
                             <br/>
@@ -262,7 +280,7 @@ export default function Home() {
                 <FadeInComponent>
                     <div style={{ padding: '1.5rem', borderTop: '1px solid #ebebeb' }}>
                         <h2>
-                            지하철
+                        지하철
                         </h2>
                         <Spacer size={1.0}/>
 
