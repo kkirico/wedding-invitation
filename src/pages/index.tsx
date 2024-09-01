@@ -24,6 +24,29 @@ export default function Home() {
             </Head>
 
             <main style={{ width: '100%', height: 'auto' }}>
+                <div style={{
+                    position: 'fixed',
+                    bottom: '30px',
+                    right: '30px',
+                    zIndex: 9999,
+                    backgroundColor: 'lightgray',
+                    background: '#929692',
+                    color: 'white',
+                    borderRadius: '100%',
+                    width:'40px',
+                    height:'40px',
+                    display:'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                }}>
+                    <a
+                        href="#map"
+                        style={{'textDecoration': 'none', color:'white'}}
+                    >
+                        <h3 style={{transform:'translateY(-2px)'}}>map</h3>
+                    </a>
+                </div>
+
                 <div style={{ padding: 10 }}>
                     <Image
                         src={image3}
@@ -73,7 +96,7 @@ export default function Home() {
 
                         <Spacer size={2}/>
 
-                        <h4 style={{ textAlign: 'center', color: 'grey', lineHeight: '3rem' }}>
+                        <h4 style={{ textAlign: 'center', color: 'grey', lineHeight: '2.5rem' }}>
                             저희 두 사람이<br/>
                             사랑과 믿음으로<br/>
                             한 가정을 이루게 되었습니다.<br/>
@@ -180,7 +203,7 @@ export default function Home() {
                 </FadeInComponent>
 
                 <FadeInComponent>
-                    <div style={{
+                    <div id={'map'} style={{
                         display: 'flex',
                         flexDirection: 'column',
                         justifyContent: 'center',
@@ -235,7 +258,7 @@ export default function Home() {
                 </FadeInComponent>
 
                 <FadeInComponent>
-                    <div style={{ padding: '1.5rem' }}>
+                    <div style={{ padding: '1.5rem', borderTop: '1px solid #ebebeb' }}>
                         <h2>
                             지하철
                         </h2>
@@ -295,6 +318,7 @@ export default function Home() {
                         </div>
                     </div>
 
+                    <Spacer size={2}/>
                 </FadeInComponent>
 
                 <FadeInComponent>
@@ -304,11 +328,12 @@ export default function Home() {
                         justifyContent: 'center',
                         alignItems: 'center',
                         padding: '3rem',
+                        borderTop: '1px solid #ebebeb',
                     }}>
                         <h2> 마음을 전하실 곳</h2>
 
 
-                        <h4 style={{ textAlign: 'center', padding: '2rem' }}>
+                        <h4 style={{ textAlign: 'center', padding: '2rem', lineHeight: '2rem' }}>
                             참석이 어려우신 분들을 위해<br/>
                             계좌번호를 기재하였습니다. <br/>
                             너그러운 마음으로 양해 부탁드립니다.<br/>
@@ -329,7 +354,13 @@ export default function Home() {
                     alignItems: 'center',
                     flexDirection: 'column',
                 }}>
-                    <div style={{ display: 'flex', flexDirection: 'row', alignItems:'center' }}>
+                    <div
+                        onClick={() => {
+                            navigator.clipboard.writeText(`https://wedding-invitation-lhjjy.vercel.app/`);
+                            window.alert(`링크가 복사되었습니다. \n 필요한 곳에 붙여넣기 하세요. `);
+                        }}
+                        style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}
+                    >
                         <Image
                             src={link}
                             alt="test image"
@@ -341,8 +372,6 @@ export default function Home() {
                         <Spacer size={0.5}/>
 
                         <h3>링크 복사하기</h3>
-
-
                     </div>
                 </footer>
             </main>
