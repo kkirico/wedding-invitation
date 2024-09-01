@@ -27,6 +27,7 @@
     border: none;
     font-family: '__Gowun_Batang_d8f4f9', '__Gowun_Batang_Fallback_d8f4f9';
     line-height: 1.125em;
+    border-radius: 0.625em;
 
     .react-calendar__tile--now {
         background: #ef5350;

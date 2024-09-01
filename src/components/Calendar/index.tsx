@@ -10,7 +10,7 @@ const Calendar: React.FC = () => {
 
 
     return (
-        <div>
+        <div style={{backgroundColor: 'rgb(247, 243, 234)', paddingTop: '1.5rem', paddingBottom: '5rem'}}>
             <div className="calender-title">
                 <h3 className="date">
                     2024.11.17.
