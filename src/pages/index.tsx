@@ -33,17 +33,17 @@ export default function Home() {
                     background: '#929692',
                     color: 'white',
                     borderRadius: '100%',
-                    width:'40px',
-                    height:'40px',
-                    display:'flex',
+                    width: '40px',
+                    height: '40px',
+                    display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',
                 }}>
                     <a
                         href="#map"
-                        style={{'textDecoration': 'none', color:'white'}}
+                        style={{ 'textDecoration': 'none', color: 'white' }}
                     >
-                        <h3 style={{transform:'translateY(-2px)'}}>map</h3>
+                        <h3 style={{ transform: 'translateY(-2px)' }}>map</h3>
                     </a>
                 </div>
 
@@ -218,8 +218,10 @@ export default function Home() {
                             보테가 마지오
                         </h3>
                         <Spacer size={1.0}/>
-                        <h4>
-                            서울 성동구 서울숲2길 32-14 갤러리아 포레 G층(B2)
+                        <h4 style={{ lineHeight: '1.5rem', textAlign: 'center' }}>
+                            서울 성동구 서울숲2길 32-14
+                            <br/>
+                            갤러리아 포레 G층(B2)
                         </h4>
 
                         <Spacer size={2.0}/>
@@ -265,15 +267,23 @@ export default function Home() {
                         <Spacer size={1.0}/>
 
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <h3 style={{ color: '#00A84D' }}>⦁ 2호선 뚝섬역</h3>
-                            <h3>&nbsp;8번 출구 도보 7분</h3>
+                            <h3>
+                                <span style={{ color: '#00A84D' }}>
+                                    ⦁ 2호선 뚝섬역
+                                </span>
+                                &nbsp;8번 출구 도보 7분
+                            </h3>
                         </div>
 
                         <Spacer size={0.5}/>
 
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <h3 style={{ color: '#F5A200' }}>⦁ 수인분당선 서울숲역</h3>
-                            <h3>&nbsp;5번 출구 도보 2분</h3>
+                            <h3>
+                                <span style={{ color: '#F5A200' }}>
+                                    ⦁ 수인분당선 서울숲역
+                                </span>
+                                &nbsp;5번 출구 도보 2분
+                            </h3>
                         </div>
                     </div>
 
@@ -286,7 +296,7 @@ export default function Home() {
                         <h3>뚝섬 서울숲 정류장</h3>
                         <Spacer size={0.5}/>
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <h3 style={{ color: '#0068b7', transform:'translateY(-2.5px)'  }}>⦁ </h3>
+                            <h3 style={{ color: '#0068b7', transform: 'translateY(-2.5px)' }}>⦁ </h3>
                             <h4>&nbsp;121, 141, 145, 148, 463</h4>
                         </div>
 
@@ -295,7 +305,7 @@ export default function Home() {
                         <h3>성동구민 종합 체육센터 정류장</h3>
                         <Spacer size={0.5}/>
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <h3 style={{ color: '#53b332', transform:'translateY(-2.5px)' }}>⦁ </h3>
+                            <h3 style={{ color: '#53b332', transform: 'translateY(-2.5px)' }}>⦁ </h3>
                             <h4>&nbsp;2014, 2224, 2413</h4>
                         </div>
 
@@ -304,7 +314,7 @@ export default function Home() {
                         <h3>뚝섬역 8번 출구 정류장</h3>
                         <Spacer size={0.5}/>
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <h3 style={{ color: '#53b332', transform:'translateY(-2.5px)'  }}>⦁ </h3>
+                            <h3 style={{ color: '#53b332', transform: 'translateY(-2.5px)' }}>⦁ </h3>
                             <h4>&nbsp;2016, 2224, 2413</h4>
                         </div>
                     </div>
