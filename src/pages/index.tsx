@@ -4,24 +4,11 @@ import FadeInComponent from '@/components/FadeInComponent';
 import Calendar from '@/components/Calendar';
 import { useEffect } from 'react';
 import Contact from '@/components/Contact';
-import image1 from '../../public/image1.jpeg'
 import image2 from '../../public/image2.jpeg'
 import image3 from '../../public/image3.jpeg'
 import image4 from '../../public/image4.jpeg'
 
-
-
 export default function Home() {
-
-    useEffect(() => {
-        // @ts-ignore
-        new daum.roughmap.Lander({
-            'timestamp': '1725183515192',
-            'key': '2kibg',
-            'mapWidth': '375',
-            'mapHeight': '360',
-        }).render();
-    }, []);
 
     return (
         <>
@@ -31,7 +18,6 @@ export default function Home() {
             </Head>
 
             <main style={{ backgroundColor: 'white', width: '100%', height: 'auto' }}>
-
                 <Image
                     src={image3}
                     alt="test image"
@@ -73,7 +59,6 @@ export default function Home() {
                             귀한 걸음 하시어<br/>
                             축복해 주시면 큰 기쁨이겠습니다<br/>
                         </h4>
-
                     </div>
 
                     <FadeInComponent>
