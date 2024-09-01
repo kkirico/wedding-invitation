@@ -26,6 +26,7 @@ export default function Home() {
             </Head>
 
             <main style={{ backgroundColor: 'white', width: '100%', height: 'auto' }}>
+
                 <Image
                     src="/image3.jpeg"
                     alt="test image"
@@ -33,6 +34,7 @@ export default function Home() {
                     height={0}
                     sizes="100vw"
                     style={{ width: '100%', height: 'auto' }}
+                    
                 />
 
                 <div className={'main-info'} style={{
