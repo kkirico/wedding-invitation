@@ -2,7 +2,7 @@ import '@/styles/globals.css';
 import 'react-calendar/dist/Calendar.css';
 import '@/styles/calendar.css';
 import type { AppProps } from 'next/app';
-import { Inter, Roboto, Gowun_Batang } from 'next/font/google';
+import { Gowun_Batang } from 'next/font/google';
 
 const globalFont = Gowun_Batang({weight:'400', subsets:['latin']});
 

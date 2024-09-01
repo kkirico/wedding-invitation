@@ -302,13 +302,12 @@ export default function Home() {
                         flexDirection: 'column',
                         justifyContent: 'center',
                         alignItems: 'center',
-                        padding: '5rem',
+                        padding: '3rem',
                     }}>
                         <h2> 마음을 전하실 곳</h2>
 
-                        <Spacer size={1.0}/>
 
-                        <h4 style={{ textAlign: 'center', paddingTop:'1rem'}}>
+                        <h4 style={{ textAlign: 'center', padding:'2rem'}}>
                             참석이 어려우신 분들을 위해<br/>
                             계좌번호를 기재하였습니다. <br/>
                             너그러운 마음으로 양해 부탁드립니다.<br/>
