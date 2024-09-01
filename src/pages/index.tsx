@@ -9,20 +9,9 @@ import image3 from '../../public/image3.jpeg';
 import image4 from '../../public/image4.jpeg';
 import naverMap from '../../public/naver_map.webp';
 import kakaoMap from '../../public/kakao_map.webp';
-import { useEffect } from 'react';
 import Accounts from '@/components/Accounts';
 
 export default function Home() {
-    useEffect(() => {
-        //@ts-ignore
-        new daum.roughmap.Lander({
-            'timestamp': '1725183515192',
-            'key': '2kibg',
-            'mapWidth': '375',
-            'mapHeight': '360',
-        }).render();
-    })
-
     return (
         <>
             <Head>
@@ -211,10 +200,10 @@ export default function Home() {
 
                         <Spacer size={2.0}/>
 
-                        {/*<div*/}
-                        {/*    id="daumRoughmapContainer1725183515192"*/}
-                        {/*    className="root_daum_roughmap root_daum_roughmap_landing">*/}
-                        {/*</div>*/}
+                        <div
+                            id="daumRoughmapContainer1725183515192"
+                            className="root_daum_roughmap root_daum_roughmap_landing">
+                        </div>
 
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
                             <a href="https://naver.me/57w8kkP3">
@@ -306,7 +295,6 @@ export default function Home() {
                     </div>
 
                 </FadeInComponent>
-
 
                 <FadeInComponent>
                     <div style={{
