@@ -11,17 +11,8 @@ import naverMap from '../../public/naver_map.webp';
 import kakaoMap from '../../public/kakao_map.webp';
 import Accounts from '@/components/Accounts';
 import link from '../../public/link.svg';
-import { useEffect } from 'react';
 
 export default function Home() {
-    useEffect(() => {
-        new daum.roughmap.Lander({
-            'timestamp': '1725183515192',
-            'key': '2kibg',
-            'mapWidth': '375',
-            'mapHeight': '360',
-        }).render();
-    }, []);
     return (
         <>
             <Head>
@@ -49,7 +40,7 @@ export default function Home() {
                     alignItems: 'center',
                 }}>
                     <a
-                        href="#map"
+                        href="#destination"
                         style={{ 'textDecoration': 'none', color: 'white' }}
                     >
                         <h3 style={{ transform: 'translateY(-2px)' }}>map</h3>
@@ -221,7 +212,7 @@ export default function Home() {
                 </FadeInComponent>
 
                 <FadeInComponent>
-                    <div id={'map'} style={{
+                    <div id={'destination'} style={{
                         display: 'flex',
                         flexDirection: 'column',
                         justifyContent: 'center',
@@ -244,10 +235,9 @@ export default function Home() {
 
                         <Spacer size={2.0}/>
 
-                        <div
-                            id="daumRoughmapContainer1725183515192"
-                            className="root_daum_roughmap root_daum_roughmap_landing">
-                        </div>
+                        <div style={{ width: '360px', height: '360px' }} id={'map'}/>
+
+                        <Spacer size={2.0}/>
 
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
                             <a href="https://naver.me/57w8kkP3">
@@ -279,9 +269,7 @@ export default function Home() {
 
                 <FadeInComponent>
                     <div style={{ padding: '1.5rem', borderTop: '1px solid #ebebeb' }}>
-                        <h2>
-                        지하철
-                        </h2>
+                        <h2>지하철</h2>
                         <Spacer size={1.0}/>
 
                         <div style={{ display: 'flex', flexDirection: 'row' }}>

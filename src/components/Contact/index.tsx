@@ -8,9 +8,9 @@ const Contact = () => {
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
             <details className={'contact'} style={{ display: 'flex', flex:1}}>
                 <summary className={'contact'} style={{ width: '153px', margin: '0 auto' }}>
-                    <div>
+                    <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center'}}>
                         <h3 style={{
-                            padding: '0 2.5rem',
+                            padding: '0 2rem',
                             border: '1px solid #878787',
                             borderRadius: '32px',
                             letterSpacing: '1px',

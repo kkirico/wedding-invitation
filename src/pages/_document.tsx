@@ -5,12 +5,8 @@ export default function Document() {
         <Html lang="en">
             <Head/>
             <body>
-                <Main/>
-                <NextScript />
-                <script
-                    className="daum_roughmap_loader_script"
-                    src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"
-                />
+            <Main/>
+            <NextScript />
             </body>
         </Html>
     );
