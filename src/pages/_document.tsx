@@ -1,7 +1,4 @@
 import { Html, Head, Main, NextScript } from 'next/document';
-import Script from 'next/script';
-
-declare var daum: any;
 
 export default function Document() {
     return (
