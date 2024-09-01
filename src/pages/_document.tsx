@@ -1,20 +1,16 @@
 import { Html, Head, Main, NextScript } from 'next/document';
+import Script from 'next/script';
 
 export default function Document() {
     return (
         <Html lang="en">
-            <Head>
-                <script
-                    charSet="UTF-8"
-                    className="daum_roughmap_loader_script"
-                    src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"
-                >
-                </script>
-
-            </Head>
+            <Head/>
             <body>
             <Main/>
-            <NextScript/>
+            <Script
+                className="daum_roughmap_loader_script"
+                src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"
+            />
             </body>
         </Html>
     );

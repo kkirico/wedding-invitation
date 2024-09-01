@@ -4,12 +4,17 @@ import FadeInComponent from '@/components/FadeInComponent';
 import Calendar from '@/components/Calendar';
 import { useEffect } from 'react';
 import Contact from '@/components/Contact';
+import image1 from '../../public/image1.jpeg'
+import image2 from '../../public/image2.jpeg'
+import image3 from '../../public/image3.jpeg'
+import image4 from '../../public/image4.jpeg'
+
+
 
 export default function Home() {
 
     useEffect(() => {
-        console.log(' effect please');
-
+        // @ts-ignore
         new daum.roughmap.Lander({
             'timestamp': '1725183515192',
             'key': '2kibg',
@@ -28,13 +33,13 @@ export default function Home() {
             <main style={{ backgroundColor: 'white', width: '100%', height: 'auto' }}>
 
                 <Image
-                    src="/image3.jpeg"
+                    src={image3}
                     alt="test image"
                     width={0}
                     height={0}
                     sizes="100vw"
                     style={{ width: '100%', height: 'auto' }}
-                    
+                    placeholder="blur"
                 />
 
                 <div className={'main-info'} style={{
@@ -80,7 +85,7 @@ export default function Home() {
                             padding: '10px',
                         }}>
                             <Image
-                                src="/image2.jpeg"
+                                src={image2}
                                 alt="test image"
                                 width={0}
                                 height={0}
@@ -119,7 +124,7 @@ export default function Home() {
                     <FadeInComponent>
                         <h1> 갤러리 </h1>
                         <Image
-                            src="/image2.jpeg"
+                            src={image2}
                             alt="test image"
                             width={0}
                             height={0}
@@ -130,7 +135,7 @@ export default function Home() {
 
                     <FadeInComponent>
                         <Image
-                            src="/image3.jpeg"
+                            src={image3}
                             alt="test image"
                             width={0}
                             height={0}
@@ -140,7 +145,7 @@ export default function Home() {
                     </FadeInComponent>
                     <FadeInComponent>
                         <Image
-                            src="/image4.jpeg"
+                            src={image4}
                             alt="test image"
                             width={0}
                             height={0}
