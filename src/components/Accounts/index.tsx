@@ -4,7 +4,6 @@ import copy from '../../../public/copy.svg';
 import Image from 'next/image';
 
 const Account = ({ bankName, accountNumber, name }: { bankName: string, accountNumber: string, name: string }) => {
-
     const trimmedAccountNumber = accountNumber.replace(/-/g,"");
 
     return (
@@ -55,8 +54,8 @@ const Accounts = () => {
                         backgroundColor: '#f9f9f9',
                         paddingTop: '0.5rem',
                         paddingBottom: '0.5rem',
-                        paddingLeft: '5rem',
-                        paddingRight: '5rem',
+                        paddingLeft: '4rem',
+                        paddingRight: '4rem',
                         width: 'auto',
                     }}
                     onClick={() => setVisible((visible) => {
@@ -79,10 +78,10 @@ const Accounts = () => {
                     style={{
                         border: 0,
                         backgroundColor: '#f9f9f9',
-                        paddingTop: '0.5rem',
-                        paddingBottom: '0.5rem',
-                        paddingLeft: '5rem',
-                        paddingRight: '5rem',
+                        marginTop: '0.5rem',
+                        marginBottom: '0.5rem',
+                        marginLeft: '4rem',
+                        marginRight: '4rem',
                         width: 'auto',
                     }}
                     onClick={() => setVisible2((visible) => {

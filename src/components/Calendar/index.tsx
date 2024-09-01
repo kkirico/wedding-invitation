@@ -1,6 +1,6 @@
 import ReactCalendar from 'react-calendar';
 import { useState } from 'react';
-import dayjs, { Dayjs } from 'dayjs';
+import dayjs from 'dayjs';
 
 export type DatePiece = Date | null;
 export type SelectedDate = DatePiece | [DatePiece, DatePiece];
@@ -12,12 +12,12 @@ const Calendar: React.FC = () => {
     return (
         <div style={{backgroundColor: 'rgb(247, 243, 234)', paddingTop: '1.5rem', paddingBottom: '5rem'}}>
             <div className="calender-title">
-                <h3 className="date">
+                <h2 className="date">
                     2024.11.17.
-                </h3>
-                <h4 className="time">
+                </h2>
+                <h3 className="time">
                     일요일 오후 3시 30분
-                </h4>
+                </h3>
             </div>
 
 

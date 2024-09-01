@@ -71,7 +71,7 @@ export default function Home() {
 
                     <Spacer size={1}/>
 
-                    <h3>2024.11.17</h3>
+                    <h3>2024.11.17. 오후 3시 30분</h3>
 
                     <Spacer size={0.5}/>
 
@@ -284,24 +284,28 @@ export default function Home() {
                         <Spacer size={1.0}/>
 
                         <h3>뚝섬 서울숲 정류장</h3>
+                        <Spacer size={0.5}/>
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <h3 style={{ color: '#0068b7' }}>⦁ </h3>
-                            <h3>&nbsp;121, 141, 145, 148, 463</h3>
+                            <h3 style={{ color: '#0068b7', transform:'translateY(-2.5px)'  }}>⦁ </h3>
+                            <h4>&nbsp;121, 141, 145, 148, 463</h4>
                         </div>
 
                         <Spacer size={1.0}/>
 
                         <h3>성동구민 종합 체육센터 정류장</h3>
+                        <Spacer size={0.5}/>
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <h3 style={{ color: '#53b332' }}>⦁ </h3>
-                            <h3>&nbsp;2014, 2224, 2413</h3>
+                            <h3 style={{ color: '#53b332', transform:'translateY(-2.5px)' }}>⦁ </h3>
+                            <h4>&nbsp;2014, 2224, 2413</h4>
                         </div>
 
+                        <Spacer size={1.0}/>
 
                         <h3>뚝섬역 8번 출구 정류장</h3>
+                        <Spacer size={0.5}/>
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <h3 style={{ color: '#53b332' }}>⦁ </h3>
-                            <h3>&nbsp;2016, 2224, 2413</h3>
+                            <h3 style={{ color: '#53b332', transform:'translateY(-2.5px)'  }}>⦁ </h3>
+                            <h4>&nbsp;2016, 2224, 2413</h4>
                         </div>
                     </div>
 
