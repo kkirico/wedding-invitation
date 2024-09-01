@@ -78,10 +78,10 @@ const Accounts = () => {
                     style={{
                         border: 0,
                         backgroundColor: '#f9f9f9',
-                        marginTop: '0.5rem',
-                        marginBottom: '0.5rem',
-                        marginLeft: '4rem',
-                        marginRight: '4rem',
+                        paddingTop: '0.5rem',
+                        paddingBottom: '0.5rem',
+                        paddingLeft: '4rem',
+                        paddingRight: '4rem',
                         width: 'auto',
                     }}
                     onClick={() => setVisible2((visible) => {
