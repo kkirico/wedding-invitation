@@ -292,7 +292,9 @@ export default function Home() {
                             </h3>
                         </div>
                     </div>
+                </FadeInComponent>
 
+                <FadeInComponent>
                     <div style={{ paddingLeft: '1.5rem', paddingRight: '1.5rem', paddingBottom: '1.5rem' }}>
                         <h2>
                             버스
@@ -324,9 +326,11 @@ export default function Home() {
                             <h4>&nbsp;2016, 2224, 2413</h4>
                         </div>
                     </div>
+                </FadeInComponent>
 
-                    <Spacer size={0.5}/>
+                <Spacer size={0.5}/>
 
+                <FadeInComponent>
                     <div style={{ paddingLeft: '1.5rem', paddingRight: '1.5rem' }}>
                         <h2>
                             주차 안내
@@ -337,9 +341,9 @@ export default function Home() {
                             <h3> 건물 내 B3~B7 2시간 무료 주차(안내데스크 주차 등록 시) </h3>
                         </div>
                     </div>
-
-                    <Spacer size={2}/>
                 </FadeInComponent>
+
+                <Spacer size={2}/>
 
                 <FadeInComponent>
                     <div style={{
