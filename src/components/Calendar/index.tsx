@@ -8,9 +8,8 @@ export type SelectedDate = DatePiece | [DatePiece, DatePiece];
 const Calendar: React.FC = () => {
     const [selectedDate, setSelectedDate] = useState<SelectedDate>(dayjs("2024-11-17").toDate());
 
-
     return (
-        <div style={{backgroundColor: 'rgb(247, 243, 234)', paddingTop: '1.5rem', paddingBottom: '5rem'}}>
+        <div style={{backgroundColor: 'rgb(247, 243, 234)', paddingTop: '1rem', paddingBottom: '2.5rem'}}>
             <div className="calender-title">
                 <h2 className="date">
                     2024.11.17.
@@ -20,10 +19,10 @@ const Calendar: React.FC = () => {
                 </h3>
             </div>
 
-
             <ReactCalendar
                 className="calendar"
                 onChange={setSelectedDate}
+                formatDay={(locale, date) => dayjs(date).format("DD")} // 날'일' 제외하고 숫자만 보이도록 설정
                 value={selectedDate}
                 view="month"
                 locale='ko'

@@ -4,13 +4,15 @@ import FadeInComponent from '@/components/FadeInComponent';
 import Calendar from '@/components/Calendar';
 import Contact from '@/components/Contact';
 import Spacer from '@/components/Spacer';
-import image2 from '../../public/image2.jpeg';
-import image3 from '../../public/image3.jpeg';
-import image4 from '../../public/image4.jpeg';
 import naverMap from '../../public/naver_map.webp';
 import kakaoMap from '../../public/kakao_map.webp';
+import tMap from '../../public/tMap.webp';
 import Accounts from '@/components/Accounts';
 import link from '../../public/link.svg';
+import Gallery from '@/components/Gallery';
+import opening1 from '../../public/opening1.jpeg';
+import opening2 from '../../public/opening2.png';
+
 
 export default function Home() {
     return (
@@ -23,14 +25,14 @@ export default function Home() {
                 <meta property="og:description" content="사랑해요 연예가중계"/>
             </Head>
 
-            <main style={{ width: '100%', height: 'auto' }}>
+            <main onContextMenu={() => false} style={{ width: '100%', height: 'auto' }}>
                 <div style={{
                     position: 'fixed',
                     bottom: '30px',
                     right: '30px',
                     zIndex: 9999,
                     backgroundColor: 'lightgray',
-                    background: '#929692',
+                    background: '#ef5350',
                     color: 'white',
                     borderRadius: '100%',
                     width: '40px',
@@ -49,7 +51,7 @@ export default function Home() {
 
                 <div style={{ padding: 10 }}>
                     <Image
-                        src={image3}
+                        src={opening1}
                         alt="test image"
                         width={0}
                         height={0}
@@ -106,8 +108,6 @@ export default function Home() {
                             축복해 주시면 큰 기쁨이겠습니다.<br/>
                         </h4>
                     </div>
-
-                    <Spacer size={2}/>
                 </FadeInComponent>
 
                 <FadeInComponent>
@@ -119,11 +119,10 @@ export default function Home() {
                         padding: '1rem',
                     }}>
                         <Image
-                            src={image2}
+                            src={opening2}
                             alt="test image"
-                            width={0}
-                            height={0}
                             sizes="100vw"
+                            height={0}
                             style={{ width: '100%', height: 'auto' }} // optional
                         />
 
@@ -173,43 +172,7 @@ export default function Home() {
                     <Spacer size={1.5}/>
                 </FadeInComponent>
 
-                <FadeInComponent>
-                    <Image
-                        src={image2}
-                        alt="test image"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: 'auto' }} // optional
-                    />
-
-                    <Spacer size={1.5}/>
-                </FadeInComponent>
-
-                <FadeInComponent>
-                    <Image
-                        src={image3}
-                        alt="test image"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: 'auto' }} // optional
-                    />
-
-                    <Spacer size={1.5}/>
-                </FadeInComponent>
-
-                <FadeInComponent>
-                    <Image
-                        src={image4}
-                        alt="test image"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: 'auto' }} // optional
-                    />
-                    <Spacer size={1}/>
-                </FadeInComponent>
+                <Gallery/>
 
                 <FadeInComponent>
                     <div id={'destination'} style={{
@@ -263,6 +226,20 @@ export default function Home() {
                                     style={{ border: '1px solid #FAE300', borderRadius: '30%' }}
                                 />
                             </a>
+
+                            <Spacer size={2.0}/>
+
+                            <a href="https://tmap.life/07ea88e5">
+                                <Image
+                                    src={tMap}
+                                    alt="test image"
+                                    width={40}
+                                    height={40}
+                                    sizes="100vw"
+                                    style={{ border: '1px solid #121212', borderRadius: '30%' }}
+                                />
+                            </a>
+
                         </div>
                     </div>
                 </FadeInComponent>
@@ -355,13 +332,6 @@ export default function Home() {
                         borderTop: '1px solid #ebebeb',
                     }}>
                         <h2> 마음을 전하실 곳</h2>
-
-
-                        <h4 style={{ textAlign: 'center', padding: '2rem', lineHeight: '2rem' }}>
-                            참석이 어려우신 분들을 위해<br/>
-                            계좌번호를 기재하였습니다. <br/>
-                            너그러운 마음으로 양해 부탁드립니다.<br/>
-                        </h4>
 
                         <Spacer size={1.0}/>
 
