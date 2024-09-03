@@ -4,7 +4,6 @@ import '@/styles/calendar.css';
 import type { AppProps } from 'next/app';
 import { Gowun_Batang } from 'next/font/google';
 import Script from 'next/script';
-import fff from '../../public/link.svg'
 
 
 const globalFont = Gowun_Batang({ weight: '400', subsets: ['latin'] });
