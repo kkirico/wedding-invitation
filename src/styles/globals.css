@@ -27,6 +27,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
+img {
+    -webkit-touch-callout:none;
+}
+
 summary::-webkit-details-marker { /* Safari 브라우저용 사용자 정의 스타일 */
     display: none;
 }

@@ -12,7 +12,7 @@ const Calendar: React.FC = () => {
         <div style={{backgroundColor: 'rgb(247, 243, 234)', paddingTop: '1rem', paddingBottom: '2.5rem'}}>
             <div className="calender-title">
                 <h2 className="date">
-                    2024.11.17.
+                    2024년 11월 17일
                 </h2>
                 <h3 className="time">
                     일요일 오후 3시 30분

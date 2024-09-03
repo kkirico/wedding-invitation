@@ -10,15 +10,14 @@ import tMap from '../../public/tMap.webp';
 import Accounts from '@/components/Accounts';
 import link from '../../public/link.svg';
 import Gallery from '@/components/Gallery';
-import opening1 from '../../public/opening1.jpeg';
+import opening1 from '../../public/opening1.jpg';
 import opening2 from '../../public/opening2.png';
-
 
 export default function Home() {
     return (
         <>
             <Head>
-                <title>초대합니다.</title>
+                <title>헌준 & 지연의 결혼식에 초대합니다.</title>
                 <link rel="icon" href="/favicon.ico"/>
                 <meta name="viewport"
                       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
@@ -73,11 +72,11 @@ export default function Home() {
 
                     <Spacer size={1}/>
 
-                    <h3>2024.11.17. 오후 3시 30분</h3>
+                    <h3>2024.11.17 오후 3시 30분</h3>
 
                     <Spacer size={0.5}/>
 
-                    <h2>보테가 마지오</h2>
+                    <h2>보테가마지오</h2>
 
                     <Spacer size={1}/>
                 </div>
@@ -167,7 +166,7 @@ export default function Home() {
                 <FadeInComponent>
                     <Spacer size={2}/>
 
-                    <h1 style={{ display: 'flex', justifyContent: 'center' }}> 갤러리 </h1>
+                    <h2 style={{ display: 'flex', justifyContent: 'center' }}> Gallery </h2>
 
                     <Spacer size={1.5}/>
                 </FadeInComponent>
@@ -186,7 +185,7 @@ export default function Home() {
 
                         <Spacer size={2.0}/>
 
-                        <h3>보테가 마지오</h3>
+                        <h3>보테가마지오</h3>
 
                         <Spacer size={1.0}/>
 

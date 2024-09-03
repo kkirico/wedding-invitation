@@ -22,7 +22,10 @@ const ImageView = ({ src }: { src: StaticImport }) => {
                 src={src}
                 alt="test image"
                 sizes="100vw"
-                style={{ width: '100%', height: 'auto' }} // optional
+                style={{
+                    width: '100%',
+                    height: 'auto',
+            }} // optional
             />
 
             <Spacer size={1.5}/>

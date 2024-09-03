@@ -23,11 +23,12 @@
     margin: auto;
     width: 280px;
     max-width: 100%;
-    background: #ffff;
+    background: rgb(247, 243, 234);
     border: none;
     font-family: '__Gowun_Batang_d8f4f9', '__Gowun_Batang_Fallback_d8f4f9';
     line-height: 1.125em;
-    border-radius: 0.625em;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
 
     .react-calendar__tile--now {
         background: #ef5350;
@@ -35,12 +36,16 @@
     }
 
     .react-calendar__month-view__days__day {
+        padding: 10px;
         /*flex-basis: auto !important;*/
     }
 
+    /*.react-calendar__navigation{*/
+    /*    visibility: hidden;*/
+    /*    height: 0;*/
+    /*}*/
     .react-calendar__navigation__label {
         font-family: '__Gowun_Batang_d8f4f9', '__Gowun_Batang_Fallback_d8f4f9';
-
     }
 
     .react-calendar__month-view__weekdays {
@@ -50,6 +55,9 @@
         }
     }
 
+    .react-calendar__month-view__days__day--neighboringMonth{
+        opacity: 0;
+    }
     .react-calendar__tile--now:enabled:hover,
     .react-calendar__tile--now:enabled:focus {
         background: #ef5350;
