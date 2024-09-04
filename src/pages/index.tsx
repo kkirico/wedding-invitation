@@ -22,6 +22,7 @@ export default function Home() {
                 <meta name="viewport"
                       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
                 <meta property="og:description" content="사랑해요 연예가중계"/>
+                <meta http-equiv="imagetoolbar" content="no"/>
             </Head>
 
             <main onContextMenu={() => false} style={{ width: '100%', height: 'auto' }}>

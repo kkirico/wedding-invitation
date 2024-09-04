@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
     -webkit-touch-callout:none;
+    pointer-events: none;
 }
 
 summary::-webkit-details-marker { /* Safari 브라우저용 사용자 정의 스타일 */
