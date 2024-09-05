@@ -11,17 +11,17 @@ import Accounts from '@/components/Accounts';
 import link from '../../public/link.svg';
 import Gallery from '@/components/Gallery';
 import opening1 from '../../public/opening1.jpg';
-import opening2 from '../../public/opening2.png';
+import opening2 from '../../public/opening2.jpg';
 
 export default function Home() {
     return (
         <>
             <Head>
-                <title>헌준 & 지연의 결혼식에 초대합니다.</title>
+                <title>헌준 & 지연의 결혼식에 초대합니다.🌻</title>
                 <link rel="icon" href="/favicon.ico"/>
                 <meta name="viewport"
                       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-                <meta property="og:description" content="사랑해요 연예가중계"/>
+                <meta property="og:description" content="11월 17일 일요일 오후 3시 30분"/>
                 <meta http-equiv="imagetoolbar" content="no"/>
             </Head>
 
@@ -66,18 +66,19 @@ export default function Home() {
                     flexDirection: 'column',
                     justifyContent: 'center',
                     alignItems: 'center',
+
                 }}>
                     <Spacer size={1}/>
 
-                    <h1>이헌준 & 이지연</h1>
+                    <h2>이헌준 & 이지연</h2>
 
                     <Spacer size={1}/>
 
-                    <h3>2024.11.17 오후 3시 30분</h3>
+                    <h5>2024년 11월 17일 오후 3시 30분</h5>
 
                     <Spacer size={0.5}/>
 
-                    <h2>보테가마지오</h2>
+                    <h5>보테가 마지오 갤러리아 포레 G층</h5>
 
                     <Spacer size={1}/>
                 </div>
@@ -109,6 +110,8 @@ export default function Home() {
                         </h4>
                     </div>
                 </FadeInComponent>
+
+                <Spacer size={2}/>
 
                 <FadeInComponent>
                     <div style={{
@@ -186,7 +189,7 @@ export default function Home() {
 
                         <Spacer size={2.0}/>
 
-                        <h3>보테가마지오</h3>
+                        <h3>보테가 마지오 갤러리아 포레 G층</h3>
 
                         <Spacer size={1.0}/>
 
