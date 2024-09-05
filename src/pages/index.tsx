@@ -90,7 +90,7 @@ export default function Home() {
                         flexDirection: 'column',
                         justifyContent: 'center',
                         alignItems: 'center',
-                        backgroundColor: 'rgb(247, 243, 234)',
+                        backgroundImage: `url(/back_3.png)`,
                         paddingTop: 70,
                         paddingBottom: 70,
                     }}>
@@ -333,7 +333,7 @@ export default function Home() {
                     }}>
                         <h2> 마음을 전하실 곳</h2>
 
-                        <Spacer size={1.0}/>
+                        <Spacer size={3}/>
 
                         <Accounts/>
                     </div>

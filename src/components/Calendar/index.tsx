@@ -9,7 +9,7 @@ const Calendar: React.FC = () => {
     const [selectedDate, setSelectedDate] = useState<SelectedDate>(dayjs("2024-11-17").toDate());
 
     return (
-        <div style={{backgroundColor: 'rgb(247, 243, 234)', paddingTop: '1rem', paddingBottom: '2.5rem'}}>
+        <div style={{backgroundColor: '#f2f3f0', paddingTop: '1rem', paddingBottom: '2.5rem'}}>
             <div className="calender-title">
                 <h2 className="date">
                     2024년 11월 17일
