@@ -74,11 +74,11 @@ export default function Home() {
 
                     <Spacer size={1}/>
 
-                    <h5>2024년 11월 17일 오후 3시 30분</h5>
+                    <h4>2024년 11월 17일 오후 3시 30분</h4>
 
                     <Spacer size={0.5}/>
 
-                    <h5>보테가 마지오 갤러리아 포레 G층</h5>
+                    <h4>보테가 마지오 갤러리아 포레 G층</h4>
 
                     <Spacer size={1}/>
                 </div>
