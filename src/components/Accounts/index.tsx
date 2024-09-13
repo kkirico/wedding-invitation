@@ -18,6 +18,8 @@ const Account = ({ bankName, accountNumber, name }: { bankName: string, accountN
                     <h4 style={{ color: '#544F4F' }}> {accountNumber} </h4>
                 </div>
 
+                <Spacer size={0.5}/>
+
                 <div
                     onClick={() => {
                         navigator.clipboard.writeText(`${trimmedAccountNumber}`);
