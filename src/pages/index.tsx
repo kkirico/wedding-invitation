@@ -21,7 +21,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico"/>
                 <meta name="viewport"
                       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-                <meta property="og:description" content="11월 17일 일요일 오후 3시 30분"/>
+                <meta property="description" content="11월 17일 일요일 오후 3시 30분"/>
                 <meta http-equiv="imagetoolbar" content="no"/>
             </Head>
 

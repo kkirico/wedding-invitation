@@ -19,6 +19,10 @@
     }
 }
 
+.react-calendar__viewContainer {
+    pointer-events: none;
+}
+
 .calendar {
     margin: auto;
     width: 280px;

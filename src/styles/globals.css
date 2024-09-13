@@ -4,6 +4,13 @@ body,html {
     color: #242424;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    max-width: 600px;
 }
 /* 페이드인 아웃 */
 .fade-in-element {
