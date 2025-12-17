@@ -68,7 +68,7 @@ const Accounts = () => {
 
                 {(visible) && (
                     <div>
-                        <Account accountNumber={'250-003416-00108'} bankName={'하나'} name={'이헌준'}/>
+                        <Account accountNumber={'000-000000-00000'} bankName={'하나'} name={'이헌준'}/>
                     </div>
                 )}
             </div>
@@ -94,9 +94,9 @@ const Accounts = () => {
 
                 {(visible2) && (
                     <div>
-                        <Account accountNumber={'345-890600-461-07'} bankName={'하나'} name={'이지연'}/>
-                        <Account accountNumber={'345-890627-37507'} bankName={'하나'} name={'이광홍'}/>
-                        <Account accountNumber={'598001-01-272685'} bankName={'국민'} name={'이소영'}/>
+                        <Account accountNumber={'000-000000-00000'} bankName={'하나'} name={'이지연'}/>
+                        <Account accountNumber={'000-000000-00000'} bankName={'하나'} name={'이광홍'}/>
+                        <Account accountNumber={'000-000000-00000'} bankName={'국민'} name={'이소영'}/>
                     </div>
                 )}
             </div>

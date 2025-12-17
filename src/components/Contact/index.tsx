@@ -30,7 +30,7 @@ const Contact = () => {
                         <Spacer size={2}/>
 
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <a href="tel:01052100847">
+                            <a href="tel:00000000000">
                                 <Image
                                     src={phone}
                                     alt="test image"
@@ -41,7 +41,7 @@ const Contact = () => {
                             </a>
                             <Spacer size={2}/>
 
-                            <a href="sms:01052100847">
+                            <a href="sms:00000000000">
                                 <Image
                                     src={sms}
                                     alt="test image"
@@ -59,7 +59,7 @@ const Contact = () => {
                         <Spacer size={2}/>
 
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <a href="tel:01080810887">
+                            <a href="tel:00000000000">
                                 <Image
                                     src={phone}
                                     alt="test image"
@@ -70,7 +70,7 @@ const Contact = () => {
                             </a>
                             <Spacer size={2}/>
 
-                            <a href="sms:01080810887">
+                            <a href="sms:00000000000">
                                 <Image
                                     src={sms}
                                     alt="test image"
@@ -88,7 +88,7 @@ const Contact = () => {
                         <Spacer size={2}/>
 
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <a href="tel:01082640847">
+                            <a href="tel:00000000000">
                                 <Image
                                     src={phone}
                                     alt="test image"
@@ -99,7 +99,7 @@ const Contact = () => {
                             </a>
                             <Spacer size={2}/>
 
-                            <a href="sms:01082640847">
+                            <a href="sms:00000000000">
                                 <Image
                                     src={sms}
                                     alt="test image"
@@ -117,7 +117,7 @@ const Contact = () => {
                         <Spacer size={2}/>
 
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <a href="tel:01081319987">
+                            <a href="tel:00000000000">
                                 <Image
                                     src={phone}
                                     alt="test image"
@@ -128,7 +128,7 @@ const Contact = () => {
                             </a>
                             <Spacer size={2}/>
 
-                            <a href="sms:01081319987">
+                            <a href="sms:00000000000">
                                 <Image
                                     src={sms}
                                     alt="test image"
@@ -146,7 +146,7 @@ const Contact = () => {
                         <Spacer size={2}/>
 
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <a href="tel:01040020747">
+                            <a href="tel:00000000000">
                                 <Image
                                     src={phone}
                                     alt="test image"
@@ -157,7 +157,7 @@ const Contact = () => {
                             </a>
                             <Spacer size={2}/>
 
-                            <a href="sms:01040020747">
+                            <a href="sms:00000000000">
                                 <Image
                                     src={sms}
                                     alt="test image"
@@ -175,7 +175,7 @@ const Contact = () => {
                         <Spacer size={2}/>
 
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <a href="tel:01077643936">
+                            <a href="tel:00000000000">
                                 <Image
                                     src={phone}
                                     alt="test image"
@@ -186,7 +186,7 @@ const Contact = () => {
                             </a>
                             <Spacer size={2}/>
 
-                            <a href="sms:01077643936">
+                            <a href="sms:00000000000">
                                 <Image
                                     src={sms}
                                     alt="test image"
