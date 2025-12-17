@@ -6,7 +6,7 @@ import Spacer from '@/components/Spacer';
 const Contact = () => {
     return (
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
-            <details className={'contact'} style={{ display: 'flex', flex:1}}>
+            <details className={'contact'} style={{ display: 'flex', flex: 1, flexDirection: 'column' }}>
                 <summary className={'contact'} style={{ width: '153px', margin: '0 auto' }}>
                     <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center'}}>
                         <h3 style={{
